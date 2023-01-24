@@ -1,0 +1,169 @@
+@font-face {
+  font-family: 'HelloTintin';
+  src: url('./font/HelloTintin.otf');
+}
+@font-face {
+  font-family: 'Mustard_Smile';
+  src: url('./font/Mustard\ Smile.otf');
+}
+@font-face {
+  font-family: 'Mandala';
+  src: url('./font/Mandala\ In\ Autumn.otf');
+}
+@font-face {
+  font-family: 'Angeline';
+  src: url('./font/Angeline\ Vintage_Demo.otf');
+}
+@font-face {
+  font-family: 'Thesignature_1';
+  src: url('./font/Thesignature.otf');
+}
+@font-face {
+  font-family: 'Thesignature_2';
+  src: url('./font/Thesignature.ttf');
+}
+@font-face {
+  font-family: 'FredokaOne';
+  src: url('./font/FredokaOne-Regular.ttf');
+}
+
+
+* {
+  box-sizing: border-box;
+}
+body{
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  background-color: rgba(101,196,250, 0.2);
+
+}
+/* logo design  */
+.main_body{
+  font-family: 'Angeline';
+}
+.logo h1{
+  
+  color: rgb(101, 99, 99);
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+/* Description on the left */
+.about_main {
+  min-height:100%;
+  background:linear-gradient(0deg, rgba(101,196,250, 0.8), rgba(101,196,250, 0.8)), url(Sky.jpeg);
+  background-size: cover;
+
+}
+.about_main_p , h1, h4, p {
+  color: white;
+}
+
+/*Form Leave your details in right */
+.form_your_details {
+  background-color: rgba(42, 233, 247, 0.3);
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.form_your_details p {
+  float: left;
+  color: white;
+  margin-bottom: 0;
+  margin-top: 18px;
+}
+/* headline */
+.form_your_details #headline_p {
+  position: static;
+  font-family: 'FredokaOne';
+  font-size: 30px;
+  font-style: oblique;
+  top: 80px;
+  color:aliceblue;
+  padding: 20px;
+}
+
+.form_your_details #p_form {
+  font-size: 15px;
+
+}
+
+
+input[type=text]{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  resize: vertical;
+}
+
+/* button Submit design  */
+input[type=submit] {
+  position: static;
+  font-family: 'FredokaOne';
+  font-size: 30px;
+  background-color:rgb(255,165,54);
+  color: white;
+  border: none;
+  margin-top: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.lower_page {
+  min-width: 100%;
+
+}
+
+.lower_page p{
+  color: black;
+
+}
+
+.lower_page .lower_description{
+  text-align: center;
+
+}
+
+.lower_description-pic {
+  font-size: 60px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+#lower_description-subtitle {
+  font-size: 30px;
+
+}
+
+.all_about_me {
+
+  background:linear-gradient(0deg, rgba(237,237,237, 0.8), rgba(101,196,250, 0.8)), url(bg-2.png);
+  background-position: center;
+}
+
+.all_about_me .main-lower_description img {
+  border: solid 2px;
+
+}
+
+.footer {
+  background-color: rgb(254,254,254);
+
+}
+
+.footer p {
+  color: rgb(150,150,151);
+  text-align: center;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
